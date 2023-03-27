@@ -1,0 +1,25 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "A blog for lazy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lazyxiao/personal-blog.git"
+  },
+  "author": "lazy_xiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lazyxiao/personal-blog/issues"
+  },
+  "homepage": "https://github.com/Lazyxiao/personal-blog#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.63"
+  }
+}
