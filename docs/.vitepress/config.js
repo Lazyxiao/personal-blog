@@ -30,8 +30,8 @@ export default defineConfig({
       {
         text: '算法',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '常见数据结构实现', link: '/algorithm/datastructer' },
+          { text: '排序算法', link: '/algorithm/sort' },
         ]
       },
       {
