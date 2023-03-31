@@ -32,6 +32,7 @@ export default defineConfig({
         items: [
           { text: '常见数据结构实现', link: '/algorithm/datastructer' },
           { text: '排序算法', link: '/algorithm/sort' },
+          { text: '二分搜索树相关', link: '/algorithm/bst' }
         ]
       },
       {
