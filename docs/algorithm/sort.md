@@ -104,11 +104,41 @@ console.log(selectionSrot(arr));
 
 ```js
 function mergeSort(arr) {
-  
+
 }
 ```
 
 ## 快速排序
+
+:::tip
+  概念： 先选取povit基准点，然后将数组区分在进行递归，得到结果
+:::
+
+```js
+var arr = [1, 3, 6, 3, 23, 76, 1, 34, 222, 6, 456, 221];
+
+function quickSort(array) {
+    function quick(arr) {
+        var len = arr.length;
+        if (len <=1) return arr;
+        var index = Math.floor(len / 2);
+        var povit = arr.splice(index, 1)[0];
+        var ll = [];
+        var rr = [];
+        for (let i = 0; i < len; i++) {
+            if (arr[i] > povit) {
+                rr.push(arr[i]);
+            } else if (arr[i] <= povit) {
+                ll.push(arr[i])
+            }
+        }
+        return quick(ll).concat([povit], quick(rr));
+    }
+    return quick(array);
+}
+
+console.log(quickSort(arr));
+```
 
 ## 堆排序
 
