@@ -18,7 +18,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '算法', link: '/algorithm/algorithm.html' },
+      { text: '数据结构', link: '/datastruct/stack' },
+      { text: '算法', link: '/algorithm/sort' },
       { text: 'HTTP', link: '/http/http.html' },
       { text: '浏览器&V8', link: '/v8/v8.html' },
       { text: 'JS面试题', link: '/jsfolder/jsfolder.html' },
@@ -30,9 +31,15 @@ export default defineConfig({
       {
         text: '算法',
         items: [
-          { text: '常见数据结构实现', link: '/algorithm/datastructer' },
           { text: '排序算法', link: '/algorithm/sort' },
           { text: '二分搜索树相关', link: '/algorithm/bst' }
+        ]
+      },
+      {
+        text: '数据结构',
+        items: [
+          { text: '栈', link: '/datastruct/stack' },
+          { text: '队列', link: '/datastruct/queue' }
         ]
       },
       {
