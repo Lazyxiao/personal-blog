@@ -69,7 +69,14 @@ export default defineConfig({
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
-      }
+      },
+      {
+        text: '设计模式',
+        items: [
+          // { text: '排序算法', link: '/algorithm/sort' },
+          // { text: '二分搜索树相关', link: '/algorithm/bst' }
+        ]
+      },
     ],
 
     socialLinks: [

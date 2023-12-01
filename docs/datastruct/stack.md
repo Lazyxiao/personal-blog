@@ -49,7 +49,7 @@ class Stack {
     return this.items[this.count - 1];
   }
   clear() {
-    this.count=0;                               
+    this.count = 0;
     this.items = {};
   }
 }
